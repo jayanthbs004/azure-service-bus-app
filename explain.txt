@@ -1,0 +1,25 @@
+
+This Java application demonstrates the basic usage of Azure Service Bus, a fully managed enterprise message broker. The application will perform the following tasks:
+
+Send Messages to a Queue: The application will send messages to an Azure Service Bus queue. This simulates a producer that generates messages to be processed.
+
+Receive Messages from a Queue: The application will receive messages from the Azure Service Bus queue. This simulates a consumer that processes messages.
+
+Detailed Steps:
+Setup Azure Service Bus:
+
+Create an Azure Service Bus namespace in the Azure portal.
+Create a queue within the namespace.
+Obtain the connection string for the namespace.
+Configure the Application:
+
+Use the connection string in the application to connect to the Azure Service Bus.
+Define the queue name in the application properties.
+Send Messages:
+
+Implement a producer class that sends messages to the queue.
+Use the Azure Service Bus SDK to send messages.
+Receive Messages:
+
+Implement a consumer class that receives messages from the queue.
+Use the Azure Service Bus SDK to receive and process messages.
